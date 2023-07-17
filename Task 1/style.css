@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 128, 160);
+}
+
+li {
+    margin: 10px;
+    padding-left: 10px;
+    list-style-position: inside;
+    background-color: rgb(208, 90, 116);
+    color: white;
+    font-size: 14pt;
+}
+
+span {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 7px 15px;
+    background-color: rgb(149, 54, 74);
+}
