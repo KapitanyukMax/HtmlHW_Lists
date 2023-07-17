@@ -1,0 +1,42 @@
+body {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 10px 30px;
+    list-style-position: inside;
+    list-style-image: url(Images/Unchecked.png);
+    background-color: rgb(165,204,218);
+}
+
+li:nth-child(even) {
+    background-color: rgb(173,216,230);
+}
+
+li.checked {
+    list-style-image: url(Images/Checked.png);
+    background-color: rgb(226,226,226);
+}
+
+li.checked .list-element-text {
+    text-decoration: line-through;
+}
+
+.list-element-text {
+    margin: 0 15px;
+}
+
+.cross {
+    margin: 0 15px;
+    color: darkred;
+}
